@@ -19,17 +19,30 @@ Trataremos los siguientes temas:
     - Herramientas (_tooling_)
     - Metodologías
     - Escalado
+    - Cultura
 
 ### Cómo lo haremos?
 
 - Día 1:
-    - Veremos la historia del concepto
+    - Conoceremos la historia sobre DevOps.
+    - Veremos la charla que se considera como un punto de inflexión en la cultura DevOps: "10+ Deploys Per day" de John Allspaw & Paul Hammond (Flikr).
+    - Repasaremos en qué consiste un pipeline DevOps.
     - Hablaremos sobre las metodologías más comunes que se casan bien con la filosofía.
+    - Presentaremos Acme Inc.
 
 - Día 2:
-    - b
+    - Empezaremos el día hablando de la parte cultural de DevOps.
+    - Veremos una charla sobre como cambiar la cultura de trabajo de un equipo. "Turn the ship around".
+    - Seguiremos con Acme Inc.
+
+## Qué es Acme Inc.?
+
+Acme Inc. va a ser nuestra empresa en la cual nos han nombrado CTO. A lo largo de los dos días iremos tomando decisiones desde qué tipo de herramientas vamos a elegir y por qué, hasta cómo podemos diseñar la colaboración entre equipos para llegar al objetivo que desde "negocio" se nos pide.
 
 ## Material necesario
+
+- VirtualBox con ubuntu 18.04 LTS instalado.
+- Si conoceis Vagrant, traerlo instalado también.
 
 ---
 
