@@ -9,7 +9,7 @@ spec:
   - 10.10.10.10
   ports:
   - name: http
-    port: 3000
+    port: 4000
     protocol: TCP
     targetPort: http
   selector:
