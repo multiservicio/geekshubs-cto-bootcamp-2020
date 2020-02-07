@@ -34,6 +34,8 @@ Trataremos los siguientes temas:
     - Empezaremos el día hablando de la parte cultural de DevOps.
     - Veremos una charla sobre como cambiar la cultura de trabajo de un equipo. "Turn the ship around".
     - Seguiremos con Acme Inc.
+    - Live session: Construir “devops” pipeline.
+
 
 ## Qué es Acme Inc.?
 

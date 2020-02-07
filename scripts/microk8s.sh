@@ -11,15 +11,12 @@ sudo microk8s.enable dns dashboard registry ingress prometheus
 
 echo "Making kubectl alias"
 sudo snap alias microk8s.kubectl kubectl
+sudo usermod -a -G microk8s vagrant
 
 echo "Installing Docker daemon"
 sudo apt-get update
 sudo apt-get  install docker.io -y -q
 sudo usermod -aG docker vagrant
 
-echo "Predowloading Gitlab image"
-sudo docker pull gitlab/gitlab-ce
-sudo docker save gitlab/gitlab-ce:latest > gitlab-ce.tar
-sudo microk8s.ctr image import gitlab-ce.tar
-
 sudo iptables -P FORWARD ACCEPT
+sudo iptables -A DOCKER -j ACCEPT
